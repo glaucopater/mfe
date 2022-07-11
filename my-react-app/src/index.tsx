@@ -24,17 +24,9 @@ class ReactElement extends HTMLElement {
   update() {
     this.unmount();
 
-    const props = {
-      selectedvalue: this.getAttribute("selectedvalue"),
-      toggleval: this.getAttribute("toggle"),
-    };
     render(<App />, this);
   }
   attributeChangedCallback(name: any, oldValue: any, newValue: any) {
-    const props = {
-      selectedvalue: this.getAttribute("selectedvalue"),
-      toggleval: this.getAttribute("toggle"),
-    };
 
     switch (name) {
       case "selectedvalue":
@@ -55,17 +47,6 @@ class ReactElement extends HTMLElement {
   }
 }
 
-class ReactElement1 extends HTMLElement {
-  render() {
-    console.log("Render of my-react-app");
-
-    return (
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-    );
-  }
-}
 console.log("index.tsx");
 
 if (process.env.NODE_ENV === "production")
