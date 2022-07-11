@@ -2,6 +2,8 @@
 A Microfrontend POC considering Angular and React
 ---
 
+![Demo](/doc/mfe.png)
+
 Microapp
 The main container is an angular application (running on port 4200)
 
@@ -13,7 +15,8 @@ There are 4 apps:
 
 Setup
 ---
-For each folder run npm i or yarn 
+For each folder run 
+- npm install or yarn 
 
 Run
 ---
@@ -23,6 +26,9 @@ Microapp
 
 For the single apps
 - npm run mfe (this will build the bundle and expose the application)
+
+To run everything with a single command, using bash or zsh
+./run-all.sh
 
 Notes 
 - this is a fork of the original project (https://github.com/namdeok/micro-frontend)
