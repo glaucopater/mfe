@@ -25,7 +25,7 @@ For the single apps
 - npm run mfe (this will build the bundle and expose the application)
 
 Notes 
+- this is a fork of the original project (https://github.com/namdeok/micro-frontend)
 - the bundle once exposed is not in dev mode, the manifest will expose the assets for the container. 
 - On each change the bundle of the non-ejected apps will be regenerated
 - In order to update the js src \micro-frontend\microapp\src\index.html should be updated.
-
