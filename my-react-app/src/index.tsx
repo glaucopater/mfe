@@ -27,7 +27,6 @@ class ReactElement extends HTMLElement {
     render(<App />, this);
   }
   attributeChangedCallback(name: any, oldValue: any, newValue: any) {
-
     switch (name) {
       case "selectedvalue":
         console.log(`Value changed from ${oldValue} to ${newValue}`);

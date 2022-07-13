@@ -16,5 +16,10 @@ cd ts-react-app
 npm run mfe &
 
 cd ..
+cd react-redux-toolkit-persist
+npm run mfe &
+
+cd ..
 cd microapp
+ng build
 ng serve 
