@@ -12,6 +12,8 @@ There are 4 apps:
 - angular-app (an angular app running on HTTP port 5001)
 - react-app (a React 16 with create-react-app ejected running on HTTP port 5002)
 - ts-react-app (a React 18 with typescript running on HTTP port 5003)
+- react-redux-toolkit-persist (a React 17 with RTK Query and persist state on HTTP port 5004)
+
 
 Setup
 ---
